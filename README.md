@@ -13,3 +13,26 @@ potential for practical application, especially in developing countries with lim
 infrastructure. The study contributes to providing a tool to support strategic decision
 making in maritime transport planning and port system development in a more sustainable 
 and proactive direction. 
+Introduction for Running the PYTHON and CPLEX:
+1. Required files
+Before running the program, make sure you have downloaded all the following files:
+a) Python Files:
+- user_interface.py: This is the main script to run the whole process. It serve as the entry point for the user.
+- configuration_data1.py: This file contains parameter and data configuration required for initializing the algorithm and model.
+- ALNS.py: This file implements the Adaptive Large Neighborhood Search (ALNS) algorithm for solving the optimization problem.
+b) CPLEX Files:
+- Model files: These files defines the CPLEX optimization model (objective function, variables, constraints).
+  Thesis.mod: File model for phase 1 and phase 2
+  phase2.mod: File model for phase 2 
+- Data file: These files provide the input data for the model (e.g., distances, costs, demand).
+2. Environment Setup
+You need to install the following Python libraries:
+pip install PyQt5
+pip install matplotlib
+pip install numpy
+3. Update File Path
+4. Run the Program
+Once everything is set up, simply run user_interface.py to start the program.
+
+
+
